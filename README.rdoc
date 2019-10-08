@@ -1,0 +1,21 @@
+= time_entry_limit
+
+== Redmine Plugin: time_entry_limit
+
+The plugin allows you to limit the time logging to the ticket retroactively.
+
+
+
+== Installation
+
+1. Download the last version
+2. Uncompress plugin to folder plugins/time_entry_limit
+3. Restart your Redmine
+
+
+
+== Uninstall
+
+1. Delete pluginin directory: `rm -rf plugins/time_entry_limit`
+2. Restart your Redmine
+

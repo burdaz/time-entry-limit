@@ -1,0 +1,6 @@
+# English strings go here for Rails i18n
+en:
+  label_setting_min_hours: Minimum hours
+  label_setting_max_hours: Maximum hours
+  label_setting_allowed_days: Number of days allowed retroactively
+  label_setting_managers: Managers

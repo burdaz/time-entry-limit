@@ -1,0 +1,18 @@
+<%- defaults = Redmine::Plugin::registered_plugins[:time_entry_limit].settings[:default] -%>
+
+<p>
+<%= label_tag 'settings[min_hours]', l(:label_setting_min_hours) %>
+<%= text_field_tag('settings[min_horas]', @settings["min_hours"] || defaults["min_hours"]) %>
+</p>
+<p>
+<%= label_tag 'settings[max_hours]', l(:label_setting_max_hours) %>
+<%= text_field_tag('settings[max_hours]', @settings["max_hours"] || defaults["max_hours"]) %>
+</p>
+<p>
+<%= label_tag 'settings[allowed_days]', l(:label_setting_allowed_days) %>
+<%= text_field_tag('settings[allowed_days]', @settings["allowed_days"] || defaults["allowed_days"]) %>
+</p>
+<p>
+<%= label_tag 'settings[managers]', l(:label_setting_managers) %>
+<%= text_field_tag('settings[managers]', @settings["managers"] || defaults["managers"]) %>
+</p>
